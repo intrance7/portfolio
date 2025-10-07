@@ -28,12 +28,8 @@ The webpage includes sections for **About**, **Projects**, **Skills**, and **Con
 ## 📁 Folder Structure
 
 ```
-portfolio-project/
-│
-├── index.html
-├── images/
-│   └── myimage.jpg
-└── README.md
+lab1-portfolio/ │ ├── index.html ├── images/ │ └── profile.jpg └── README.md
+lab2-portfolio/ │ ├── index.html ├── style.css ├── images/ │ └── profile.jpg └── README.md
 ```
 
 ---
@@ -69,3 +65,4 @@ Before submission, open `index.html` in a browser and verify that:
 * All links scroll correctly.
 * The form fields work and have placeholders.
 * Image and table display properly.
+
