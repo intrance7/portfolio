@@ -73,10 +73,8 @@ lab2-portfolio/
 
 ---
 
-## 🧾 Notes
+## 🧾 Preview
+ ![Homepage](./images/1st.png)
+![About Section](./images/2nd.png)
+![Contact Page](./images/3rd.png)
 
-Before submission, open `index.html` in a browser and verify that:
-
-* All navigation links scroll correctly.
-* Form fields work and include placeholders.
-* Image and table display properly.
