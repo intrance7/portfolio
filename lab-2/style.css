@@ -5,14 +5,8 @@
    File   : style.css
    ============================================== */
 
-/* ------------------------------
-   GOOGLE FONT IMPORT
---------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* ------------------------------
-   GLOBAL STYLES
---------------------------------*/
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -22,20 +16,12 @@ body {
     line-height: 1.6;
 }
 
-/* Consistent color theme */
-:root {
-    --primary-color: #004aad;       /* Deep blue */
-    --secondary-color: #00bfa6;     /* Teal accent */
-    --light-bg: #ffffff;
-    --text-dark: #222;
-}
-
-/* Accessibility link (hidden visually but available for screen readers) */
+/* Skip Link */
 .skip-link {
     position: absolute;
     top: -40px;
     left: 0;
-    background: var(--secondary-color);
+    background: #00bfa6;
     color: #fff;
     padding: 8px 12px;
     text-decoration: none;
@@ -44,18 +30,17 @@ body {
     top: 0;
 }
 
-/* ------------------------------
-   HEADER & NAVIGATION
---------------------------------*/
+/* Header */
 header {
-    background-color: var(--primary-color);
+    background-color: #004aad;
     color: #fff;
     text-align: center;
     padding: 30px 15px;
 }
 
+/* Navigation */
 nav {
-    background-color: var(--secondary-color);
+    background-color: #00bfa6;
     text-align: center;
     position: sticky;
     top: 0;
@@ -83,13 +68,11 @@ nav a {
 
 nav a:hover {
     background-color: #fff;
-    color: var(--secondary-color);
+    color: #00bfa6;
     border-radius: 5px;
 }
 
-/* ------------------------------
-   HERO SECTION
---------------------------------*/
+/* Hero Section */
 #hero {
     text-align: center;
     padding: 60px 20px;
@@ -97,16 +80,14 @@ nav a:hover {
 }
 
 #hero h2 {
-    color: var(--primary-color);
+    color: #004aad;
     margin-bottom: 10px;
 }
 
-/* ------------------------------
-   ABOUT SECTION
---------------------------------*/
+/* About Section */
 #about {
     padding: 50px 20px;
-    background-color: var(--light-bg);
+    background-color: #ffffff;
     text-align: center;
 }
 
@@ -117,16 +98,14 @@ nav a:hover {
     margin: 20px 0;
 }
 
-/* ------------------------------
-   PROJECTS SECTION
---------------------------------*/
+/* Projects Section */
 #projects {
     padding: 50px 30px;
     background-color: #f0f8ff;
 }
 
 #projects h2 {
-    color: var(--primary-color);
+    color: #004aad;
     text-align: center;
 }
 
@@ -140,12 +119,10 @@ nav a:hover {
     margin: 10px 0;
 }
 
-/* ------------------------------
-   SKILLS SECTION
---------------------------------*/
+/* Skills Section */
 #skills {
     padding: 50px 20px;
-    background-color: var(--light-bg);
+    background-color: #ffffff;
     text-align: center;
 }
 
@@ -163,7 +140,7 @@ nav a:hover {
 }
 
 #skills th {
-    background-color: var(--secondary-color);
+    background-color: #00bfa6;
     color: #fff;
 }
 
@@ -171,16 +148,14 @@ nav a:hover {
     background-color: #f2f2f2;
 }
 
-/* ------------------------------
-   CONTACT SECTION
---------------------------------*/
+/* Contact Section */
 #contact {
     padding: 50px 20px;
     background-color: #e6f2ff;
 }
 
 #contact h2 {
-    color: var(--primary-color);
+    color: #004aad;
     text-align: center;
 }
 
@@ -206,11 +181,8 @@ input, textarea {
     font-family: inherit;
 }
 
-/* ------------------------------
-   BUTTON STYLES
---------------------------------*/
 input[type="submit"], button {
-    background-color: var(--primary-color);
+    background-color: #004aad;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -220,12 +192,10 @@ input[type="submit"], button {
 }
 
 input[type="submit"]:hover, button:hover {
-    background-color: var(--secondary-color);
+    background-color: #00bfa6;
 }
 
-/* ------------------------------
-   HR AND VISUAL SEPARATORS
---------------------------------*/
+/* Divider */
 hr {
     border: 0;
     border-top: 2px solid #ccc;
@@ -233,27 +203,22 @@ hr {
     width: 80%;
 }
 
-/* ------------------------------
-   FOOTER
---------------------------------*/
+/* Footer */
 footer {
-    background-color: var(--primary-color);
+    background-color: #004aad;
     color: #fff;
     text-align: center;
     padding: 15px;
     position: relative;
 }
 
-/* ------------------------------
-   BACK TO TOP BUTTON
---------------------------------*/
 footer a {
     color: #fff;
     text-decoration: underline;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: var(--secondary-color);
+    background-color: #00bfa6;
     padding: 10px 15px;
     border-radius: 50px;
     text-align: center;
@@ -262,5 +227,5 @@ footer a {
 }
 
 footer a:hover {
-    background-color: var(--primary-color);
+    background-color: #004aad;
 }
