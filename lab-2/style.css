@@ -16,7 +16,6 @@ body {
     line-height: 1.6;
 }
 
-/* Skip Link */
 .skip-link {
     position: absolute;
     top: -40px;
@@ -30,7 +29,6 @@ body {
     top: 0;
 }
 
-/* Header */
 header {
     background-color: #004aad;
     color: #fff;
@@ -38,7 +36,6 @@ header {
     padding: 30px 15px;
 }
 
-/* Navigation */
 nav {
     background-color: #00bfa6;
     text-align: center;
@@ -72,7 +69,6 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* Hero Section */
 #hero {
     text-align: center;
     padding: 60px 20px;
@@ -84,7 +80,6 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-/* About Section */
 #about {
     padding: 50px 20px;
     background-color: #ffffff;
@@ -98,7 +93,6 @@ nav a:hover {
     margin: 20px 0;
 }
 
-/* Projects Section */
 #projects {
     padding: 50px 30px;
     background-color: #f0f8ff;
@@ -119,7 +113,6 @@ nav a:hover {
     margin: 10px 0;
 }
 
-/* Skills Section */
 #skills {
     padding: 50px 20px;
     background-color: #ffffff;
@@ -148,7 +141,6 @@ nav a:hover {
     background-color: #f2f2f2;
 }
 
-/* Contact Section */
 #contact {
     padding: 50px 20px;
     background-color: #e6f2ff;
@@ -195,7 +187,6 @@ input[type="submit"]:hover, button:hover {
     background-color: #00bfa6;
 }
 
-/* Divider */
 hr {
     border: 0;
     border-top: 2px solid #ccc;
@@ -203,7 +194,6 @@ hr {
     width: 80%;
 }
 
-/* Footer */
 footer {
     background-color: #004aad;
     color: #fff;
@@ -229,3 +219,4 @@ footer a {
 footer a:hover {
     background-color: #004aad;
 }
+
